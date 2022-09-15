@@ -3,16 +3,16 @@
 public class ColorChanger : MonoBehaviour
 {
     public LineRenderer linerenderer;
-    public Material red;
-    public Material blue;
-    public Material darkblue;
-    public Material white;
-    public Material yellow;
-    public Material orange;
-    public Material violet;
-    public Material green;
-    public Material black;
-    public Material eraser;
+    [SerializeField]private Material red;
+    [SerializeField] private Material blue;
+    [SerializeField] private Material darkblue;
+    [SerializeField] private Material white;
+    [SerializeField] private Material yellow;
+    [SerializeField] private Material orange;
+    [SerializeField] private Material violet;
+    [SerializeField] private Material green;
+    [SerializeField] private Material black;
+    [SerializeField] private Material eraser;
     // Start is called before the first frame update
     private void Start()
     {

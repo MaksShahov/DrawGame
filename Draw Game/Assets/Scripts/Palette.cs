@@ -4,10 +4,10 @@ using DG.Tweening;
 
 public class Palette : MonoBehaviour
 {
-    public GameObject panel;
-    public bool opened=false;
-    public bool canchange = true;
-    public void Check()
+    [SerializeField] private GameObject panel;
+    private bool opened=false;
+    private bool canchange = true;
+    private void Check()
     {
         if (opened == false && canchange == true)
         {

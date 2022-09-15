@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class ResolutionChanger : MonoBehaviour
 {
-    public Scrollbar resolutionscroll;
+    [SerializeField] private Scrollbar resolutionscroll;
     public LineRenderer line;
     public void Start()
     {
